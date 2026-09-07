@@ -1,0 +1,38 @@
+[
+  {
+    "id": "AIBuildingSafetyInspector",
+    "name": "Building safety inspector",
+    "sourceProject": "AIBuildingSafetyInspector",
+    "services": []
+  },
+  {
+    "id": "AICrisisCommunicationAgent",
+    "name": "Crisis communication agent",
+    "sourceProject": "AICrisisCommunicationAgent",
+    "services": []
+  },
+  {
+    "id": "AIDisasterResponseCoordinator",
+    "name": "Disaster response coordinator",
+    "sourceProject": "AIDisasterResponseCoordinator",
+    "services": []
+  },
+  {
+    "id": "AIFactoryFloorSafetyMonitor",
+    "name": "Factory floor safety monitor",
+    "sourceProject": "AIFactoryFloorSafetyMonitor",
+    "services": []
+  },
+  {
+    "id": "AISchoolSafetyThreatAssessment",
+    "name": "School safety threat assessment",
+    "sourceProject": "AISchoolSafetyThreatAssessment",
+    "services": []
+  },
+  {
+    "id": "AIWildfirePredictionResponse",
+    "name": "Wildfire prediction response",
+    "sourceProject": "AIWildfirePredictionResponse",
+    "services": []
+  }
+]

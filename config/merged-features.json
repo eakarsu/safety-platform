@@ -1,0 +1,6479 @@
+[
+  {
+    "id": "clients",
+    "title": "Clients & customers",
+    "group": "Workspace",
+    "description": "Organize clients & customers and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "address",
+        "label": "Address",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/clients",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "matters",
+    "title": "Work items & projects",
+    "group": "Workspace",
+    "description": "Organize work items & projects and track progress.",
+    "fields": [
+      {
+        "name": "reference",
+        "label": "Reference",
+        "type": "text"
+      },
+      {
+        "name": "jurisdiction",
+        "label": "Jurisdiction",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/matters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "contacts",
+    "title": "Contacts & parties",
+    "group": "Workspace",
+    "description": "Organize contacts & parties and track progress.",
+    "fields": [
+      {
+        "name": "full_name",
+        "label": "Full name",
+        "type": "text"
+      },
+      {
+        "name": "email",
+        "label": "Email",
+        "type": "text"
+      },
+      {
+        "name": "phone",
+        "label": "Phone",
+        "type": "text"
+      },
+      {
+        "name": "organization",
+        "label": "Organization",
+        "type": "text"
+      },
+      {
+        "name": "relationship",
+        "label": "Relationship",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "tasks",
+    "title": "Tasks",
+    "group": "Workspace",
+    "description": "Organize tasks and track progress.",
+    "fields": [
+      {
+        "name": "assignee",
+        "label": "Assignee",
+        "type": "text"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "priority",
+        "label": "Priority",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/tasks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar",
+    "title": "Calendar",
+    "group": "Workspace",
+    "description": "Organize calendar and track progress.",
+    "fields": [
+      {
+        "name": "event_date",
+        "label": "Event date",
+        "type": "date"
+      },
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "attendees",
+        "label": "Attendees",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/calendar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "deadlines",
+    "title": "Deadlines & reminders",
+    "group": "Workspace",
+    "description": "Organize deadlines & reminders and track progress.",
+    "fields": [
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "owner",
+        "label": "Owner",
+        "type": "text"
+      },
+      {
+        "name": "requirements",
+        "label": "Requirements",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/deadlines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notes",
+    "title": "Notes",
+    "group": "Workspace",
+    "description": "Organize notes and track progress.",
+    "fields": [
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/notes",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "documents",
+    "title": "Documents",
+    "group": "Workspace",
+    "description": "Organize documents and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/documents",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Compliance Documents"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/documents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "templates",
+    "title": "Templates",
+    "group": "Workspace",
+    "description": "Organize templates and track progress.",
+    "fields": [
+      {
+        "name": "document_type",
+        "label": "Document type",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "billing",
+    "title": "Invoices & billing",
+    "group": "Workspace",
+    "description": "Organize invoices & billing and track progress.",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "label": "Invoice number",
+        "type": "text"
+      },
+      {
+        "name": "amount",
+        "label": "Amount",
+        "type": "number"
+      },
+      {
+        "name": "due_date",
+        "label": "Due date",
+        "type": "date"
+      },
+      {
+        "name": "payment_status",
+        "label": "Payment status",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/billing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "time",
+    "title": "Time tracking",
+    "group": "Workspace",
+    "description": "Organize time tracking and track progress.",
+    "fields": [
+      {
+        "name": "work_date",
+        "label": "Work date",
+        "type": "date"
+      },
+      {
+        "name": "hours",
+        "label": "Hours",
+        "type": "number"
+      },
+      {
+        "name": "rate",
+        "label": "Rate",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/time",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "messages",
+    "title": "Messages & communications",
+    "group": "Workspace",
+    "description": "Organize messages & communications and track progress.",
+    "fields": [
+      {
+        "name": "recipient",
+        "label": "Recipient",
+        "type": "text"
+      },
+      {
+        "name": "subject",
+        "label": "Subject",
+        "type": "text"
+      },
+      {
+        "name": "content",
+        "label": "Content",
+        "type": "textarea"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/communications",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Communications"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/communications",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Communication Hub"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/messages",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "reports",
+    "title": "Reports & analytics",
+    "group": "Workspace",
+    "description": "Organize reports & analytics and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "report",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/reports",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Daily Reports"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "audit",
+    "title": "Activity & audit trail",
+    "group": "Workspace",
+    "description": "Organize activity & audit trail and track progress.",
+    "fields": [],
+    "ai": false,
+    "mode": "audit",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/audit-logs",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Audit Log"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/audit",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "connections",
+    "title": "Provider connections",
+    "group": "Workspace",
+    "description": "Prepare provider connections requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "provider_name",
+        "label": "Provider name",
+        "type": "text"
+      },
+      {
+        "name": "endpoint_url",
+        "label": "Endpoint url",
+        "type": "text"
+      },
+      {
+        "name": "purpose",
+        "label": "Purpose",
+        "type": "text"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "integrations",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor",
+        "kind": "route",
+        "label": "Integrations"
+      }
+    ],
+    "owner": "workspace",
+    "alternatives": [],
+    "path": "/features/connections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "permit-closeout-readiness",
+    "title": "Permit Closeout Readiness",
+    "group": "Building safety inspector",
+    "description": "Organize permit closeout readiness and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/permit-closeout-readiness",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Permit Closeout Readiness"
+      }
+    ],
+    "owner": "AIBuildingSafetyInspector",
+    "alternatives": [],
+    "path": "/features/permit-closeout-readiness",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "inspections",
+    "title": "Site Inspections",
+    "group": "Building safety inspector",
+    "description": "Organize site inspections and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/inspections",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Site Inspections"
+      }
+    ],
+    "owner": "AIBuildingSafetyInspector",
+    "alternatives": [],
+    "path": "/features/inspections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "violations",
+    "title": "Violations",
+    "group": "Building safety inspector",
+    "description": "Organize violations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/violations",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Violations"
+      }
+    ],
+    "owner": "AIBuildingSafetyInspector",
+    "alternatives": [],
+    "path": "/features/violations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "checklists",
+    "title": "Safety Checklists",
+    "group": "Building safety inspector",
+    "description": "Organize safety checklists and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/checklists",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Safety Checklists"
+      }
+    ],
+    "owner": "AIBuildingSafetyInspector",
+    "alternatives": [],
+    "path": "/features/checklists",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "incidents",
+    "title": "Incident Reports",
+    "group": "Building safety inspector",
+    "description": "Organize incident reports and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/incidents",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Incident Reports"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/incidents",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Incidents"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/incidents",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Incident Management"
+      },
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/incidents",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Incident Analysis"
+      }
+    ],
+    "owner": "AIBuildingSafetyInspector",
+    "alternatives": [],
+    "path": "/features/incidents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipment",
+    "title": "Equipment Inspections",
+    "group": "Building safety inspector",
+    "description": "Organize equipment inspections and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/equipment",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Equipment Inspections"
+      },
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/equipment-inspections",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Equipment Inspections"
+      }
+    ],
+    "owner": "AIBuildingSafetyInspector",
+    "alternatives": [],
+    "path": "/features/equipment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "certifications",
+    "title": "Worker Certifications",
+    "group": "Building safety inspector",
+    "description": "Organize worker certifications and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/certifications",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Worker Certifications"
+      }
+    ],
+    "owner": "AIBuildingSafetyInspector",
+    "alternatives": [],
+    "path": "/features/certifications",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "training",
+    "title": "Safety Training",
+    "group": "Building safety inspector",
+    "description": "Organize safety training and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/training",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Safety Training"
+      },
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/safety-trainings",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Safety Training"
+      }
+    ],
+    "owner": "AIBuildingSafetyInspector",
+    "alternatives": [],
+    "path": "/features/training",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "hazards",
+    "title": "Hazard Assessments",
+    "group": "Building safety inspector",
+    "description": "Organize hazard assessments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/hazards",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Hazard Assessments"
+      }
+    ],
+    "owner": "AIBuildingSafetyInspector",
+    "alternatives": [],
+    "path": "/features/hazards",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "emergency",
+    "title": "Emergency Plans",
+    "group": "Building safety inspector",
+    "description": "Organize emergency plans and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/emergency",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Emergency Plans"
+      }
+    ],
+    "owner": "AIBuildingSafetyInspector",
+    "alternatives": [],
+    "path": "/features/emergency",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ppe",
+    "title": "PPE Inventory",
+    "group": "Building safety inspector",
+    "description": "Organize ppe inventory and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/ppe",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "PPE Inventory"
+      },
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/ppe-inventory",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "PPE Inventory"
+      }
+    ],
+    "owner": "AIBuildingSafetyInspector",
+    "alternatives": [],
+    "path": "/features/ppe",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "corrections",
+    "title": "Corrective Actions",
+    "group": "Building safety inspector",
+    "description": "Organize corrective actions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIBuildingSafetyInspector",
+        "path": "/corrections",
+        "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+        "kind": "definition",
+        "label": "Corrective Actions"
+      }
+    ],
+    "owner": "AIBuildingSafetyInspector",
+    "alternatives": [],
+    "path": "/features/corrections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "crisis-incidents",
+    "title": "Crisis Incidents",
+    "group": "Crisis communication agent",
+    "description": "Organize crisis incidents and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/crisis-incidents",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Crisis Incidents"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/crisis-incidents",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "media-monitoring",
+    "title": "Media Monitoring",
+    "group": "Crisis communication agent",
+    "description": "Organize media monitoring and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/media-monitoring",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Media Monitoring"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/media-monitoring",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "stakeholders",
+    "title": "Stakeholders",
+    "group": "Crisis communication agent",
+    "description": "Organize stakeholders and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/stakeholders",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Stakeholders"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/stakeholders",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "response-templates",
+    "title": "Response Templates",
+    "group": "Crisis communication agent",
+    "description": "Organize response templates and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/response-templates",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Response Templates"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/response-templates",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "crisis-simulations",
+    "title": "Crisis Simulations",
+    "group": "Crisis communication agent",
+    "description": "Organize crisis simulations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/crisis-simulations",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Crisis Simulations"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/crisis-simulations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "communication-logs",
+    "title": "Communication Log",
+    "group": "Crisis communication agent",
+    "description": "Organize communication log and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/communication-logs",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Communication Log"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/communication-logs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "team-members",
+    "title": "Team Management",
+    "group": "Crisis communication agent",
+    "description": "Organize team management and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/team-members",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Team Management"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/team-members",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "incident-timelines",
+    "title": "Incident Timeline",
+    "group": "Crisis communication agent",
+    "description": "Organize incident timeline and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/incident-timelines",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Incident Timeline"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/incident-timelines",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "press-releases",
+    "title": "Press Releases",
+    "group": "Crisis communication agent",
+    "description": "Organize press releases and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/press-releases",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Press Releases"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/press-releases",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "social-media",
+    "title": "Social Media",
+    "group": "Crisis communication agent",
+    "description": "Organize social media and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/social-media",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Social Media"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/social-media",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sentiment-analysis",
+    "title": "Sentiment Analysis",
+    "group": "Crisis communication agent",
+    "description": "Organize sentiment analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/sentiment-analysis",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Sentiment Analysis"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/sentiment-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "risk-assessments",
+    "title": "Risk Assessment",
+    "group": "Crisis communication agent",
+    "description": "Organize risk assessment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/risk-assessments",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Risk Assessment"
+      },
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/risk-assessments",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Risk Assessment"
+      },
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "/risk-assessments",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Risk Assessments"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/risk-assessments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "talking-points",
+    "title": "Talking Points",
+    "group": "Crisis communication agent",
+    "description": "Organize talking points and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/talking-points",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Talking Points"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/talking-points",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "post-crisis-analysis",
+    "title": "Post-Crisis Analysis",
+    "group": "Crisis communication agent",
+    "description": "Organize post-crisis analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/post-crisis-analysis",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Post-Crisis Analysis"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/post-crisis-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predictive-crisis-detection",
+    "title": "CF: PredictiveCrisisDetectio",
+    "group": "Crisis communication agent",
+    "description": "Organize cf: predictivecrisisdetectio and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/cf/predictive-crisis-detection",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "CF: PredictiveCrisisDetectio"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/predictive-crisis-detection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agentic-response-planning",
+    "title": "CF: AgenticResponsePlanning",
+    "group": "Crisis communication agent",
+    "description": "Organize cf: agenticresponseplanning and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/cf/agentic-response-planning",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "CF: AgenticResponsePlanning"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/agentic-response-planning",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sentiment-driven-escalation",
+    "title": "CF: SentimentDrivenEscalatio",
+    "group": "Crisis communication agent",
+    "description": "Organize cf: sentimentdrivenescalatio and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/cf/sentiment-driven-escalation",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "CF: SentimentDrivenEscalatio"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/sentiment-driven-escalation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "scenario-stress-testing",
+    "title": "CF: ScenarioStressTesting",
+    "group": "Crisis communication agent",
+    "description": "Organize cf: scenariostresstesting and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/cf/scenario-stress-testing",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "CF: ScenarioStressTesting"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/scenario-stress-testing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "post-crisis-learning-automation",
+    "title": "CF: PostCrisisLearningAutoma",
+    "group": "Crisis communication agent",
+    "description": "Organize cf: postcrisislearningautoma and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/cf/post-crisis-learning-automation",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "CF: PostCrisisLearningAutoma"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/post-crisis-learning-automation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "all-major-functions-lack-ai-endpoints-missing-generate-respo",
+    "title": "Gap: AllMajorFunctionsLackAiE",
+    "group": "Crisis communication agent",
+    "description": "Organize gap: allmajorfunctionslackaie and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/gap/all-major-functions-lack-ai-endpoints-missing-generate-respo",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Gap: AllMajorFunctionsLackAiE"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/all-major-functions-lack-ai-endpoints-missing-generate-respo",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "real-time-alert-system-for-crisis-detection",
+    "title": "Gap: NoRealTimeAlertSystemFor",
+    "group": "Crisis communication agent",
+    "description": "Organize gap: norealtimealertsystemfor and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/gap/no-real-time-alert-system-for-crisis-detection",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Gap: NoRealTimeAlertSystemFor"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/real-time-alert-system-for-crisis-detection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-integration-with-media-monitoring-apis-meltwater-bra",
+    "title": "Gap: LimitedIntegrationWithMe",
+    "group": "Crisis communication agent",
+    "description": "Prepare gap: limitedintegrationwithme requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/gap/limited-integration-with-media-monitoring-apis-meltwater-bra",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Gap: LimitedIntegrationWithMe"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/limited-integration-with-media-monitoring-apis-meltwater-bra",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "webhooks",
+    "title": "Gap: NoWebhooks",
+    "group": "Crisis communication agent",
+    "description": "Prepare gap: nowebhooks requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/gap/no-webhooks",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Gap: NoWebhooks"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "gap/no-webhooks",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "No webhooks"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/webhooks",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-push-notification-distribution-beyond-plumbing-stubs",
+    "title": "Gap: LimitedPushNotificationD",
+    "group": "Crisis communication agent",
+    "description": "Organize gap: limitedpushnotificationd and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/gap/limited-push-notification-distribution-beyond-plumbing-stubs",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Gap: LimitedPushNotificationD"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/limited-push-notification-distribution-beyond-plumbing-stubs",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "approval-workflow-for-crisis-responses",
+    "title": "Gap: NoApprovalWorkflowForCri",
+    "group": "Crisis communication agent",
+    "description": "Organize gap: noapprovalworkflowforcri and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/gap/no-approval-workflow-for-crisis-responses",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Gap: NoApprovalWorkflowForCri"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/approval-workflow-for-crisis-responses",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "payment-billing-module",
+    "title": "Gap: NoPaymentBillingModule",
+    "group": "Crisis communication agent",
+    "description": "Organize gap: nopaymentbillingmodule and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "/gap/no-payment-billing-module",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Gap: NoPaymentBillingModule"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/payment-billing-module",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "severity-score",
+    "title": "Crisis Severity Scorer",
+    "group": "Crisis communication agent",
+    "description": "Organize crisis severity scorer and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_id",
+        "label": "Incident id",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "severity-score",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+        "kind": "definition",
+        "label": "Crisis Severity Scorer"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/severity-score",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "consistency-check",
+    "title": "Message Consistency Checker",
+    "group": "Crisis communication agent",
+    "description": "Organize message consistency checker and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_id",
+        "label": "Incident id",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "consistency-check",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+        "kind": "definition",
+        "label": "Message Consistency Checker"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/consistency-check",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "template-recommender",
+    "title": "Template Recommender",
+    "group": "Crisis communication agent",
+    "description": "Organize template recommender and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_id",
+        "label": "Incident id",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "template-recommender",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+        "kind": "definition",
+        "label": "Template Recommender"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/template-recommender",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "impact-forecast",
+    "title": "Impact Forecaster",
+    "group": "Crisis communication agent",
+    "description": "Organize impact forecaster and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_id",
+        "label": "Incident id",
+        "type": "text"
+      },
+      {
+        "name": "hazard",
+        "label": "Hazard (text)",
+        "type": "text"
+      },
+      {
+        "name": "region",
+        "label": "Region (text)",
+        "type": "text"
+      },
+      {
+        "name": "population_at_risk",
+        "label": "Population at Risk (optional, number)",
+        "type": "text"
+      },
+      {
+        "name": "time_horizon_hours",
+        "label": "Time Horizon Hours (optional, number)",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "impact-forecast",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+        "kind": "definition",
+        "label": "Impact Forecaster"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "Impact Forecast",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/AINewTools.js",
+        "kind": "definition",
+        "label": "Impact Forecast"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/impact-forecast",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "media-alert",
+    "title": "Automated Media Alert",
+    "group": "Crisis communication agent",
+    "description": "Organize automated media alert and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_id",
+        "label": "Incident id",
+        "type": "text"
+      },
+      {
+        "name": "mention_text",
+        "label": "Mention text",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "media-alert",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+        "kind": "definition",
+        "label": "Automated Media Alert"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/media-alert",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "notification-cascade",
+    "title": "Notification Cascade",
+    "group": "Crisis communication agent",
+    "description": "Organize notification cascade and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_id",
+        "label": "Incident id",
+        "type": "text"
+      },
+      {
+        "name": "message_template",
+        "label": "Message template",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "notification-cascade",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+        "kind": "definition",
+        "label": "Notification Cascade"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/notification-cascade",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "competitor-mentions",
+    "title": "Competitor Mention Tracker",
+    "group": "Crisis communication agent",
+    "description": "Organize competitor mention tracker and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_id",
+        "label": "Incident id",
+        "type": "text"
+      },
+      {
+        "name": "competitor_names",
+        "label": "Competitor names",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "competitor-mentions",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+        "kind": "definition",
+        "label": "Competitor Mention Tracker"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/competitor-mentions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "draft-press-release",
+    "title": "Draft Press Release",
+    "group": "Crisis communication agent",
+    "description": "Organize draft press release and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_id",
+        "label": "Incident id",
+        "type": "text"
+      },
+      {
+        "name": "audience",
+        "label": "Audience",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "draft-press-release",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+        "kind": "definition",
+        "label": "Draft Press Release"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/draft-press-release",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "predict-escalation",
+    "title": "Predict Escalation",
+    "group": "Crisis communication agent",
+    "description": "Organize predict escalation and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_id",
+        "label": "Incident id",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "predict-escalation",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+        "kind": "definition",
+        "label": "Predict Escalation"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/predict-escalation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "auto-generate-talking-points",
+    "title": "Auto Talking Points",
+    "group": "Crisis communication agent",
+    "description": "Organize auto talking points and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_id",
+        "label": "Incident id",
+        "type": "text"
+      },
+      {
+        "name": "audiences",
+        "label": "Audiences",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "auto-generate-talking-points",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+        "kind": "definition",
+        "label": "Auto Talking Points"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/auto-generate-talking-points",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recommend-tactics",
+    "title": "Tactical Playbook",
+    "group": "Crisis communication agent",
+    "description": "Organize tactical playbook and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_id",
+        "label": "Incident id",
+        "type": "text"
+      },
+      {
+        "name": "stakeholder_ids",
+        "label": "Stakeholder ids",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AICrisisCommunicationAgent",
+        "path": "recommend-tactics",
+        "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+        "kind": "definition",
+        "label": "Tactical Playbook"
+      }
+    ],
+    "owner": "AICrisisCommunicationAgent",
+    "alternatives": [],
+    "path": "/features/recommend-tactics",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "resources",
+    "title": "Resources",
+    "group": "Disaster response coordinator",
+    "description": "Organize resources and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/resources",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Resources"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/resources",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Resource Allocation"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/resources",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "shelters",
+    "title": "Shelters",
+    "group": "Disaster response coordinator",
+    "description": "Organize shelters and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/shelters",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Shelters"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/shelters",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Shelter Management"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/shelters",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "volunteers",
+    "title": "Volunteers",
+    "group": "Disaster response coordinator",
+    "description": "Organize volunteers and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/volunteers",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Volunteers"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/volunteers",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Volunteer Coordination"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/volunteers",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "supplies",
+    "title": "Supplies",
+    "group": "Disaster response coordinator",
+    "description": "Organize supplies and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/supplies",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Supplies"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/supplies",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Supply Chain"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/supplies",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "evacuations",
+    "title": "Evacuations",
+    "group": "Disaster response coordinator",
+    "description": "Organize evacuations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/evacuations",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Evacuations"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/evacuations",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Evacuation Planning"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/evacuations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "damage-assessments",
+    "title": "Damage Assessments",
+    "group": "Disaster response coordinator",
+    "description": "Organize damage assessments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/damage-assessments",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Damage Assessments"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/damage-assessments",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Damage Assessment"
+      },
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "/damage-assessments",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Damage Assessments"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/damage-assessments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "weather-alerts",
+    "title": "Weather Alerts",
+    "group": "Disaster response coordinator",
+    "description": "Organize weather alerts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/weather-alerts",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Weather Alerts"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/weather-alerts",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Weather Monitoring"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/weather-alerts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "donations",
+    "title": "Donations",
+    "group": "Disaster response coordinator",
+    "description": "Organize donations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/donations",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Donations"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/donations",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Donation Management"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/donations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "medical-resources",
+    "title": "Medical Resources",
+    "group": "Disaster response coordinator",
+    "description": "Organize medical resources and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/medical-resources",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Medical Resources"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/medical-resources",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Medical Response"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/medical-resources",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "search-rescue",
+    "title": "Search & Rescue",
+    "group": "Disaster response coordinator",
+    "description": "Organize search & rescue and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/search-rescue",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Search & Rescue"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/search-rescue",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "infrastructure",
+    "title": "Infrastructure",
+    "group": "Disaster response coordinator",
+    "description": "Organize infrastructure and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/infrastructure",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Infrastructure"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/infrastructure",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+        "kind": "definition",
+        "label": "Infrastructure Status"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/infrastructure",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "threat-analysis",
+    "title": "Threat Analysis",
+    "group": "Disaster response coordinator",
+    "description": "Organize threat analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/threat-analysis",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Threat Analysis"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/threat-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "live-map",
+    "title": "Live Map",
+    "group": "Disaster response coordinator",
+    "description": "Organize live map and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/live-map",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Live Map"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/live-map",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "briefing",
+    "title": "Commander Briefing",
+    "group": "Disaster response coordinator",
+    "description": "Organize commander briefing and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/briefing",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Commander Briefing"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/briefing",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "external-data",
+    "title": "External Data",
+    "group": "Disaster response coordinator",
+    "description": "Organize external data and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/external-data",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "External Data"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/external-data",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mutual-aid",
+    "title": "Mutual Aid Board",
+    "group": "Disaster response coordinator",
+    "description": "Organize mutual aid board and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/mutual-aid",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Mutual Aid Board"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/mutual-aid",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "aar",
+    "title": "AAR Workflow",
+    "group": "Disaster response coordinator",
+    "description": "Organize aar workflow and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/aar",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "AAR Workflow"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/aar",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "new-tools",
+    "title": "AI New Tools",
+    "group": "Disaster response coordinator",
+    "description": "Organize ai new tools and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/ai-new-tools",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "AI New Tools"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/new-tools",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "eews-seismic-feed-ingest",
+    "title": "Seismic Feed Ingest",
+    "group": "Disaster response coordinator",
+    "description": "Organize seismic feed ingest and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/eews/seismic-feed-ingest",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Seismic Feed Ingest"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/eews-seismic-feed-ingest",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "eews-p-wave-detection",
+    "title": "P-Wave Detection",
+    "group": "Disaster response coordinator",
+    "description": "Organize p-wave detection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/eews/p-wave-detection",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "P-Wave Detection"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/eews-p-wave-detection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "eews-tsunami-propagation",
+    "title": "Tsunami Propagation",
+    "group": "Disaster response coordinator",
+    "description": "Organize tsunami propagation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/eews/tsunami-propagation",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Tsunami Propagation"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/eews-tsunami-propagation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "eews-population-alert-router",
+    "title": "Population Alert Router",
+    "group": "Disaster response coordinator",
+    "description": "Organize population alert router and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/eews/population-alert-router",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "Population Alert Router"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/eews-population-alert-router",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "eews-eew-siren",
+    "title": "EEW Siren Network",
+    "group": "Disaster response coordinator",
+    "description": "Organize eew siren network and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/eews/eew-siren",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "EEW Siren Network"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/eews-eew-siren",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "eews-shake-alert-gateway",
+    "title": "ShakeAlert Gateway",
+    "group": "Disaster response coordinator",
+    "description": "Organize shakealert gateway and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "/eews/shake-alert-gateway",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+        "kind": "definition",
+        "label": "ShakeAlert Gateway"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/eews-shake-alert-gateway",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "supply-distribution-optimizer",
+    "title": "Supply Distribution Optimizer",
+    "group": "Disaster response coordinator",
+    "description": "Organize supply distribution optimizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "supplies",
+        "label": "Supplies (JSON array)",
+        "type": "text"
+      },
+      {
+        "name": "demand_points",
+        "label": "Demand Points (JSON array)",
+        "type": "text"
+      },
+      {
+        "name": "constraints",
+        "label": "Constraints (optional, JSON)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "Supply Distribution Optimizer",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/AINewTools.js",
+        "kind": "definition",
+        "label": "Supply Distribution Optimizer"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/supply-distribution-optimizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "donation-to-need-matcher",
+    "title": "Donation-to-Need Matcher",
+    "group": "Disaster response coordinator",
+    "description": "Organize donation-to-need matcher and prepare the next review.",
+    "fields": [
+      {
+        "name": "donations",
+        "label": "Donations (JSON array)",
+        "type": "text"
+      },
+      {
+        "name": "needs",
+        "label": "Needs (JSON array)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "Donation-to-Need Matcher",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/AINewTools.js",
+        "kind": "definition",
+        "label": "Donation-to-Need Matcher"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/donation-to-need-matcher",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "shelter-assignment-optimizer",
+    "title": "Shelter Assignment Optimizer",
+    "group": "Disaster response coordinator",
+    "description": "Organize shelter assignment optimizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "shelters",
+        "label": "Shelters (JSON array)",
+        "type": "text"
+      },
+      {
+        "name": "evacuees",
+        "label": "Evacuees (JSON array)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "Shelter Assignment Optimizer",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/AINewTools.js",
+        "kind": "definition",
+        "label": "Shelter Assignment Optimizer"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/shelter-assignment-optimizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "vulnerability-analysis",
+    "title": "Vulnerability Analysis",
+    "group": "Disaster response coordinator",
+    "description": "Organize vulnerability analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "population",
+        "label": "Population (JSON array)",
+        "type": "text"
+      },
+      {
+        "name": "hazard",
+        "label": "Hazard (text)",
+        "type": "text"
+      },
+      {
+        "name": "location",
+        "label": "Location (text)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "Vulnerability Analysis",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/AINewTools.js",
+        "kind": "definition",
+        "label": "Vulnerability Analysis"
+      },
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "cf/vulnerability-analysis",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "Vulnerability analysis"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/vulnerability-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recovery-trajectory",
+    "title": "Recovery Trajectory",
+    "group": "Disaster response coordinator",
+    "description": "Organize recovery trajectory and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_summary",
+        "label": "Incident Summary (text)",
+        "type": "text"
+      },
+      {
+        "name": "current_status",
+        "label": "Current Status (JSON)",
+        "type": "text"
+      },
+      {
+        "name": "resources_available",
+        "label": "Resources Available (optional, JSON)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "Recovery Trajectory",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/AINewTools.js",
+        "kind": "definition",
+        "label": "Recovery Trajectory"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/recovery-trajectory",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "real-time-impact-forecasting",
+    "title": "Real time impact forecasting",
+    "group": "Disaster response coordinator",
+    "description": "Organize real time impact forecasting and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "cf/real-time-impact-forecasting",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "Real time impact forecasting"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/real-time-impact-forecasting",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "resource-constrained-optimization",
+    "title": "Resource constrained optimization",
+    "group": "Disaster response coordinator",
+    "description": "Organize resource constrained optimization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "cf/resource-constrained-optimization",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "Resource constrained optimization"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/resource-constrained-optimization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "supply-chain-prediction",
+    "title": "Supply chain prediction",
+    "group": "Disaster response coordinator",
+    "description": "Organize supply chain prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "cf/supply-chain-prediction",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "Supply chain prediction"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/supply-chain-prediction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recovery-trajectory-modeling",
+    "title": "Recovery trajectory modeling",
+    "group": "Disaster response coordinator",
+    "description": "Organize recovery trajectory modeling and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "cf/recovery-trajectory-modeling",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "Recovery trajectory modeling"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/recovery-trajectory-modeling",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "supplyroutes-lacks-optimize-supply-distribution",
+    "title": "Supplyroutes lacks optimize supply distribution",
+    "group": "Disaster response coordinator",
+    "description": "Organize supplyroutes lacks optimize supply distribution and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "gap/supplyroutes-lacks-optimize-supply-distribution",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "Supplyroutes lacks optimize supply distribution"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/supplyroutes-lacks-optimize-supply-distribution",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "donationroutes-lacks-match-donation-to-need",
+    "title": "Donationroutes lacks match donation to need",
+    "group": "Disaster response coordinator",
+    "description": "Organize donationroutes lacks match donation to need and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "gap/donationroutes-lacks-match-donation-to-need",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "Donationroutes lacks match donation to need"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/donationroutes-lacks-match-donation-to-need",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "shelterroutes-lacks-optimize-shelter-assignments",
+    "title": "Shelterroutes lacks optimize shelter assignments",
+    "group": "Disaster response coordinator",
+    "description": "Organize shelterroutes lacks optimize shelter assignments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "gap/shelterroutes-lacks-optimize-shelter-assignments",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "Shelterroutes lacks optimize shelter assignments"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/shelterroutes-lacks-optimize-shelter-assignments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "volunteerroutes-lacks-ai-volunteer-matching",
+    "title": "Volunteerroutes lacks ai volunteer matching",
+    "group": "Disaster response coordinator",
+    "description": "Organize volunteerroutes lacks ai volunteer matching and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "gap/volunteerroutes-lacks-ai-volunteer-matching",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "Volunteerroutes lacks ai volunteer matching"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/volunteerroutes-lacks-ai-volunteer-matching",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "real-time-crisis-command-center-dashboard-surface-beyond",
+    "title": "No real time crisis command center dashboard surface beyond",
+    "group": "Disaster response coordinator",
+    "description": "Organize no real time crisis command center dashboard surface beyond and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "gap/no-real-time-crisis-command-center-dashboard-surface-beyond",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "No real time crisis command center dashboard surface beyond"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/real-time-crisis-command-center-dashboard-surface-beyond",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-mobile-app-for-first-responders",
+    "title": "Limited mobile app for first responders",
+    "group": "Disaster response coordinator",
+    "description": "Organize limited mobile app for first responders and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "gap/limited-mobile-app-for-first-responders",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "Limited mobile app for first responders"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/limited-mobile-app-for-first-responders",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-integration-with-emergency-services-911-fema-red-cro",
+    "title": "Limited integration with emergency services 911 fema red cro",
+    "group": "Disaster response coordinator",
+    "description": "Prepare limited integration with emergency services 911 fema red cro requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "gap/limited-integration-with-emergency-services-911-fema-red-cro",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "Limited integration with emergency services 911 fema red cro"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/limited-integration-with-emergency-services-911-fema-red-cro",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "social-media-monitoring-for-crisis-information",
+    "title": "No social media monitoring for crisis information",
+    "group": "Disaster response coordinator",
+    "description": "Organize no social media monitoring for crisis information and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "gap/no-social-media-monitoring-for-crisis-information",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "No social media monitoring for crisis information"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/social-media-monitoring-for-crisis-information",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "payment-billing-module-for-donations-beyond-crud",
+    "title": "No payment billing module for donations beyond crud",
+    "group": "Disaster response coordinator",
+    "description": "Organize no payment billing module for donations beyond crud and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "gap/no-payment-billing-module-for-donations-beyond-crud",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "No payment billing module for donations beyond crud"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/payment-billing-module-for-donations-beyond-crud",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "calendar-integration",
+    "title": "No calendar integration",
+    "group": "Disaster response coordinator",
+    "description": "Prepare no calendar integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AIDisasterResponseCoordinator",
+        "path": "gap/no-calendar-integration",
+        "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+        "kind": "route",
+        "label": "No calendar integration"
+      }
+    ],
+    "owner": "AIDisasterResponseCoordinator",
+    "alternatives": [],
+    "path": "/features/calendar-integration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "ppe-detections",
+    "title": "PPE Detection",
+    "group": "Factory floor safety monitor",
+    "description": "Organize ppe detection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/ppe-detections",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "PPE Detection"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/ppe-detections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "safety-audits",
+    "title": "Safety Audits",
+    "group": "Factory floor safety monitor",
+    "description": "Organize safety audits and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/safety-audits",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Safety Audits"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/safety-audits",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "compliance-reports",
+    "title": "Compliance Reports",
+    "group": "Factory floor safety monitor",
+    "description": "Organize compliance reports and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/compliance-reports",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Compliance Reports"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/compliance-reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "hazard-zones",
+    "title": "Hazard Zones",
+    "group": "Factory floor safety monitor",
+    "description": "Organize hazard zones and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/hazard-zones",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Hazard Zones"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/hazard-zones",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "incident-predict",
+    "title": "Incident Predict",
+    "group": "Factory floor safety monitor",
+    "description": "Organize incident predict and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/ai/incident-predict",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Incident Predict"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/incident-predict",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "osha-near-miss",
+    "title": "OSHA & Near-Miss",
+    "group": "Factory floor safety monitor",
+    "description": "Organize osha & near-miss and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/ai/osha-near-miss",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "OSHA & Near-Miss"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/osha-near-miss",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "agentic-predictive",
+    "title": "Agentic & Predictive",
+    "group": "Factory floor safety monitor",
+    "description": "Organize agentic & predictive and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/ai/agentic-predictive",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Agentic & Predictive"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/agentic-predictive",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "employees",
+    "title": "Employees",
+    "group": "Factory floor safety monitor",
+    "description": "Organize employees and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/employees",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Employees"
+      },
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/employees",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "Employee Management"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/employees",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "shift-schedules",
+    "title": "Shift Schedules",
+    "group": "Factory floor safety monitor",
+    "description": "Organize shift schedules and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/shift-schedules",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Shift Schedules"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/shift-schedules",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "emergency-contacts",
+    "title": "Emergency Contacts",
+    "group": "Factory floor safety monitor",
+    "description": "Organize emergency contacts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/emergency-contacts",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Emergency Contacts"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/emergency-contacts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "safety-alerts",
+    "title": "Safety Alerts",
+    "group": "Factory floor safety monitor",
+    "description": "Organize safety alerts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/safety-alerts",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Safety Alerts"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/safety-alerts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "lockout-tagout-review",
+    "title": "Lockout Tagout",
+    "group": "Factory floor safety monitor",
+    "description": "Organize lockout tagout and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/lockout-tagout-review",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+        "kind": "definition",
+        "label": "Lockout Tagout"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/lockout-tagout-review",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "insights",
+    "title": "AI Insights",
+    "group": "Factory floor safety monitor",
+    "description": "Organize ai insights and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIFactoryFloorSafetyMonitor",
+        "path": "/ai-insights",
+        "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/pages/Dashboard.jsx",
+        "kind": "definition",
+        "label": "AI Insights"
+      }
+    ],
+    "owner": "AIFactoryFloorSafetyMonitor",
+    "alternatives": [],
+    "path": "/features/insights",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "behavioral-intelligence-platform",
+    "title": "behavioral intelligence platform",
+    "group": "School safety threat assessment",
+    "description": "Organize behavioral intelligence platform and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "cf-behavioral-intelligence-platform",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "behavioral intelligence platform"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/behavioral-intelligence-platform",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "threat-severity-scoring",
+    "title": "threat severity scoring",
+    "group": "School safety threat assessment",
+    "description": "Organize threat severity scoring and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "cf-threat-severity-scoring",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "threat severity scoring"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/threat-severity-scoring",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mental-health-early-identification",
+    "title": "mental health early identification",
+    "group": "School safety threat assessment",
+    "description": "Organize mental health early identification and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "cf-mental-health-early-identification",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "mental health early identification"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/mental-health-early-identification",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "emergency-playbook-automation",
+    "title": "emergency playbook automation",
+    "group": "School safety threat assessment",
+    "description": "Organize emergency playbook automation and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "cf-emergency-playbook-automation",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "emergency playbook automation"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/emergency-playbook-automation",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "community-risk-monitoring",
+    "title": "community risk monitoring",
+    "group": "School safety threat assessment",
+    "description": "Organize community risk monitoring and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "cf-community-risk-monitoring",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "community risk monitoring"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/community-risk-monitoring",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "staff-training-personalization",
+    "title": "staff training personalization",
+    "group": "School safety threat assessment",
+    "description": "Organize staff training personalization and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "cf-staff-training-personalization",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "staff training personalization"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/staff-training-personalization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "threatriskscore-severity-ai",
+    "title": "threatriskscore severity ai",
+    "group": "School safety threat assessment",
+    "description": "Organize threatriskscore severity ai and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "gap-no-threatriskscore-severity-ai",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "threatriskscore severity ai"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/threatriskscore-severity-ai",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "behavioralpatterndetection",
+    "title": "behavioralpatterndetection",
+    "group": "School safety threat assessment",
+    "description": "Organize behavioralpatterndetection and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "gap-no-behavioralpatterndetection",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "behavioralpatterndetection"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/behavioralpatterndetection",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "bullyingdetection-from-textcommunication",
+    "title": "bullyingdetection from textcommunication",
+    "group": "School safety threat assessment",
+    "description": "Organize bullyingdetection from textcommunication and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "gap-no-bullyingdetection-from-textcommunication",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "bullyingdetection from textcommunication"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/bullyingdetection-from-textcommunication",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "emergencyreadinessassessment",
+    "title": "emergencyreadinessassessment",
+    "group": "School safety threat assessment",
+    "description": "Organize emergencyreadinessassessment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "gap-no-emergencyreadinessassessment",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "emergencyreadinessassessment"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/emergencyreadinessassessment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "firstresponderbrief-autogeneration",
+    "title": "firstresponderbrief autogeneration",
+    "group": "School safety threat assessment",
+    "description": "Organize firstresponderbrief autogeneration and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "gap-no-firstresponderbrief-autogeneration",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "firstresponderbrief autogeneration"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/firstresponderbrief-autogeneration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "mentalhealthreferral-ai-triage",
+    "title": "mentalhealthreferral ai triage",
+    "group": "School safety threat assessment",
+    "description": "Organize mentalhealthreferral ai triage and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "gap-no-mentalhealthreferral-ai-triage",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "mentalhealthreferral ai triage"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/mentalhealthreferral-ai-triage",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-anonymous-reporting-tips-route-exist",
+    "title": "limited anonymous reporting tips route exist",
+    "group": "School safety threat assessment",
+    "description": "Organize limited anonymous reporting tips route exist and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "gap-limited-anonymous-reporting-tips-route-exist",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "limited anonymous reporting tips route exist"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/limited-anonymous-reporting-tips-route-exist",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sospanic-alert-system-integration",
+    "title": "sospanic alert system integration",
+    "group": "School safety threat assessment",
+    "description": "Prepare sospanic alert system integration requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "gap-no-sospanic-alert-system-integration",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "sospanic alert system integration"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/sospanic-alert-system-integration",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "massnotification-smsvoice-emergency-comms",
+    "title": "massnotification smsvoice emergency comms",
+    "group": "School safety threat assessment",
+    "description": "Organize massnotification smsvoice emergency comms and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "gap-no-massnotification-smsvoice-emergency-comms",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "massnotification smsvoice emergency comms"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/massnotification-smsvoice-emergency-comms",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "firstresponder-integration-cad-push",
+    "title": "firstresponder integration cad push",
+    "group": "School safety threat assessment",
+    "description": "Prepare firstresponder integration cad push requests and track review. Provider execution is not connected.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "integration",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "gap-no-firstresponder-integration-cad-push",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "firstresponder integration cad push"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/firstresponder-integration-cad-push",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "sis-student-information-system-integratio",
+    "title": "sis student information system integratio",
+    "group": "School safety threat assessment",
+    "description": "Organize sis student information system integratio and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "gap-no-sis-student-information-system-integratio",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "sis student information system integratio"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/sis-student-information-system-integratio",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "limited-training-compliance-tracking",
+    "title": "limited training compliance tracking",
+    "group": "School safety threat assessment",
+    "description": "Organize limited training compliance tracking and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AISchoolSafetyThreatAssessment",
+        "path": "gap-limited-training-compliance-tracking",
+        "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+        "kind": "route",
+        "label": "limited training compliance tracking"
+      }
+    ],
+    "owner": "AISchoolSafetyThreatAssessment",
+    "alternatives": [],
+    "path": "/features/limited-training-compliance-tracking",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fire-detections",
+    "title": "Fire Detections",
+    "group": "Wildfire prediction response",
+    "description": "Organize fire detections and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "/fire-detections",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Fire Detections"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/fire-detections",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "evacuation-plans",
+    "title": "Evacuation Plans",
+    "group": "Wildfire prediction response",
+    "description": "Organize evacuation plans and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "/evacuation-plans",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Evacuation Plans"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/evacuation-plans",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "resource-allocations",
+    "title": "Resource Allocations",
+    "group": "Wildfire prediction response",
+    "description": "Organize resource allocations and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "/resource-allocations",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Resource Allocations"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/resource-allocations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "weather-analyses",
+    "title": "Weather Analyses",
+    "group": "Wildfire prediction response",
+    "description": "Organize weather analyses and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "/weather-analyses",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Weather Analyses"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/weather-analyses",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "smoke-reports",
+    "title": "Smoke Reports",
+    "group": "Wildfire prediction response",
+    "description": "Organize smoke reports and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "/smoke-reports",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Smoke Reports"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/smoke-reports",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "community-alerts",
+    "title": "Community Alerts",
+    "group": "Wildfire prediction response",
+    "description": "Organize community alerts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "/community-alerts",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Community Alerts"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/community-alerts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "spread-predictions",
+    "title": "Spread Predictions",
+    "group": "Wildfire prediction response",
+    "description": "Organize spread predictions and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "/spread-predictions",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Spread Predictions"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/spread-predictions",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "water-sources",
+    "title": "Water Sources",
+    "group": "Wildfire prediction response",
+    "description": "Organize water sources and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "/water-sources",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Water Sources"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/water-sources",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "crew-deployments",
+    "title": "Crew Deployments",
+    "group": "Wildfire prediction response",
+    "description": "Organize crew deployments and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "/crew-deployments",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Crew Deployments"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/crew-deployments",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "equipment-tracking",
+    "title": "Equipment Tracking",
+    "group": "Wildfire prediction response",
+    "description": "Organize equipment tracking and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "/equipment-tracking",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+        "kind": "definition",
+        "label": "Equipment Tracking"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/equipment-tracking",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "quick-risk-assessment",
+    "title": "Quick Risk Assessment",
+    "group": "Wildfire prediction response",
+    "description": "Organize quick risk assessment and prepare the next review.",
+    "fields": [
+      {
+        "name": "location",
+        "label": "Location",
+        "type": "text"
+      },
+      {
+        "name": "conditions",
+        "label": "Current Conditions",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "Quick Risk Assessment",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AICenter.js",
+        "kind": "definition",
+        "label": "Quick Risk Assessment"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/quick-risk-assessment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "situation-report-generator",
+    "title": "Situation Report Generator",
+    "group": "Wildfire prediction response",
+    "description": "Organize situation report generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_details",
+        "label": "Incident Details",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "Situation Report Generator",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AICenter.js",
+        "kind": "definition",
+        "label": "Situation Report Generator"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/situation-report-generator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fire-behavior-analysis",
+    "title": "Fire Behavior Analysis",
+    "group": "Wildfire prediction response",
+    "description": "Organize fire behavior analysis and prepare the next review.",
+    "fields": [
+      {
+        "name": "fuel_type",
+        "label": "Fuel Type",
+        "type": "text"
+      },
+      {
+        "name": "slope",
+        "label": "Slope (%)",
+        "type": "number"
+      },
+      {
+        "name": "wind",
+        "label": "Wind (mph)",
+        "type": "number"
+      },
+      {
+        "name": "moisture",
+        "label": "Fuel Moisture (%)",
+        "type": "number"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "Fire Behavior Analysis",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AICenter.js",
+        "kind": "definition",
+        "label": "Fire Behavior Analysis"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/fire-behavior-analysis",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "prevention-recommendations",
+    "title": "Prevention Recommendations",
+    "group": "Wildfire prediction response",
+    "description": "Organize prevention recommendations and prepare the next review.",
+    "fields": [
+      {
+        "name": "area_description",
+        "label": "Area Description",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "Prevention Recommendations",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AICenter.js",
+        "kind": "definition",
+        "label": "Prevention Recommendations"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/prevention-recommendations",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "training-scenario-generator",
+    "title": "Training Scenario Generator",
+    "group": "Wildfire prediction response",
+    "description": "Organize training scenario generator and prepare the next review.",
+    "fields": [
+      {
+        "name": "difficulty",
+        "label": "Difficulty",
+        "type": "select",
+        "options": [
+          "Beginner",
+          "Intermediate",
+          "Advanced",
+          "Expert"
+        ]
+      },
+      {
+        "name": "scenario_type",
+        "label": "Scenario Type",
+        "type": "select",
+        "options": [
+          "Initial Attack",
+          "Structure Protection",
+          "Evacuation",
+          "Command",
+          "Weather Event",
+          "Multi-Agency"
+        ]
+      },
+      {
+        "name": "crew_level",
+        "label": "Crew Level",
+        "type": "select",
+        "options": [
+          "Volunteer",
+          "Type 2 Crew",
+          "Type 1 Crew",
+          "Hotshot",
+          "Incident Commander"
+        ]
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "Training Scenario Generator",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AICenter.js",
+        "kind": "definition",
+        "label": "Training Scenario Generator"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/training-scenario-generator",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "fire-spread-predictor",
+    "title": "Fire Spread Predictor",
+    "group": "Wildfire prediction response",
+    "description": "Organize fire spread predictor and prepare the next review.",
+    "fields": [
+      {
+        "name": "fire_name",
+        "label": "Fire Name",
+        "type": "text"
+      },
+      {
+        "name": "current_acres",
+        "label": "Current Size (acres)",
+        "type": "number"
+      },
+      {
+        "name": "wind_speed",
+        "label": "Wind Speed (mph)",
+        "type": "number"
+      },
+      {
+        "name": "wind_direction",
+        "label": "Wind Direction (deg)",
+        "type": "number"
+      },
+      {
+        "name": "terrain",
+        "label": "Terrain",
+        "type": "text"
+      },
+      {
+        "name": "fuel_moisture",
+        "label": "Fuel Moisture (%)",
+        "type": "number"
+      },
+      {
+        "name": "vegetation_type",
+        "label": "Vegetation Type",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "Fire Spread Predictor",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+        "kind": "definition",
+        "label": "Fire Spread Predictor"
+      },
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "fire-spread-predictor",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Fire spread predictor"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/fire-spread-predictor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "evacuation-route-optimizer",
+    "title": "Evacuation Route Optimizer",
+    "group": "Wildfire prediction response",
+    "description": "Organize evacuation route optimizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "fire_location",
+        "label": "Fire Location",
+        "type": "text"
+      },
+      {
+        "name": "fire_acres",
+        "label": "Fire Size (acres)",
+        "type": "number"
+      },
+      {
+        "name": "wind_direction",
+        "label": "Wind Direction",
+        "type": "text"
+      },
+      {
+        "name": "zones",
+        "label": "Zones to Evacuate",
+        "type": "textarea"
+      },
+      {
+        "name": "road_network_description",
+        "label": "Road Network",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "Evacuation Route Optimizer",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+        "kind": "definition",
+        "label": "Evacuation Route Optimizer"
+      },
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "evacuation-route-optimizer",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Evacuation route optimizer"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/evacuation-route-optimizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "resource-allocation-planner",
+    "title": "Resource Allocation Planner",
+    "group": "Wildfire prediction response",
+    "description": "Organize resource allocation planner and prepare the next review.",
+    "fields": [
+      {
+        "name": "incident_name",
+        "label": "Incident Name",
+        "type": "text"
+      },
+      {
+        "name": "incident_size_acres",
+        "label": "Incident Size (acres)",
+        "type": "number"
+      },
+      {
+        "name": "priority_level",
+        "label": "Priority (1-5)",
+        "type": "number"
+      },
+      {
+        "name": "available_resources",
+        "label": "Available Resources",
+        "type": "textarea"
+      },
+      {
+        "name": "terrain_access",
+        "label": "Terrain / Access Notes",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "Resource Allocation Planner",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+        "kind": "definition",
+        "label": "Resource Allocation Planner"
+      },
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "resource-allocation-planner",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Resource allocation planner"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/resource-allocation-planner",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "post-fire-damage-assessor",
+    "title": "Post-Fire Damage Assessor",
+    "group": "Wildfire prediction response",
+    "description": "Organize post-fire damage assessor and prepare the next review.",
+    "fields": [
+      {
+        "name": "fire_name",
+        "label": "Fire Name",
+        "type": "text"
+      },
+      {
+        "name": "final_acres",
+        "label": "Final Size (acres)",
+        "type": "number"
+      },
+      {
+        "name": "affected_communities",
+        "label": "Affected Communities",
+        "type": "textarea"
+      },
+      {
+        "name": "structures_in_zone",
+        "label": "Structures in Zone",
+        "type": "number"
+      },
+      {
+        "name": "observations",
+        "label": "Field Observations",
+        "type": "textarea"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "Post-Fire Damage Assessor",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+        "kind": "definition",
+        "label": "Post-Fire Damage Assessor"
+      },
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "post-fire-damage-assessor",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Post fire damage assessor"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/post-fire-damage-assessor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "weather-risk-monitor",
+    "title": "Weather Risk Monitor",
+    "group": "Wildfire prediction response",
+    "description": "Organize weather risk monitor and prepare the next review.",
+    "fields": [
+      {
+        "name": "region",
+        "label": "Region",
+        "type": "text"
+      },
+      {
+        "name": "forecast_period",
+        "label": "Forecast Period",
+        "type": "text"
+      },
+      {
+        "name": "temperature_f",
+        "label": "Temperature (F)",
+        "type": "number"
+      },
+      {
+        "name": "humidity_pct",
+        "label": "Humidity (%)",
+        "type": "number"
+      },
+      {
+        "name": "wind_forecast",
+        "label": "Wind Forecast",
+        "type": "textarea"
+      },
+      {
+        "name": "precipitation_outlook",
+        "label": "Precipitation Outlook",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "Weather Risk Monitor",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+        "kind": "definition",
+        "label": "Weather Risk Monitor"
+      },
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "weather-risk-monitor",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Weather risk monitor"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/weather-risk-monitor",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "resource-deployment-optimizer",
+    "title": "Resource Deployment Optimizer",
+    "group": "Wildfire prediction response",
+    "description": "Organize resource deployment optimizer and prepare the next review.",
+    "fields": [
+      {
+        "name": "time_horizon_hours",
+        "label": "Horizon (hours)",
+        "type": "number"
+      },
+      {
+        "name": "fires",
+        "label": "Active Fires (JSON)",
+        "type": "text"
+      },
+      {
+        "name": "crews",
+        "label": "Crews (JSON)",
+        "type": "text"
+      },
+      {
+        "name": "engines",
+        "label": "Engines / Dozers (JSON)",
+        "type": "text"
+      },
+      {
+        "name": "aircraft",
+        "label": "Aircraft (JSON)",
+        "type": "text"
+      },
+      {
+        "name": "water_sources",
+        "label": "Water Sources (JSON)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "Resource Deployment Optimizer",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+        "kind": "definition",
+        "label": "Resource Deployment Optimizer"
+      },
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "resource-deployment-optimizer",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Resource deployment optimizer"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/resource-deployment-optimizer",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "community-alert-prioritization",
+    "title": "Community Alert Prioritization",
+    "group": "Wildfire prediction response",
+    "description": "Organize community alert prioritization and prepare the next review.",
+    "fields": [
+      {
+        "name": "fires",
+        "label": "Active Fires (JSON)",
+        "type": "text"
+      },
+      {
+        "name": "communities",
+        "label": "Communities / Zones (JSON)",
+        "type": "text"
+      },
+      {
+        "name": "current_alerts",
+        "label": "Existing Alerts (JSON)",
+        "type": "text"
+      },
+      {
+        "name": "weather",
+        "label": "Weather (JSON)",
+        "type": "text"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "Community Alert Prioritization",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+        "kind": "definition",
+        "label": "Community Alert Prioritization"
+      },
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "community-alert-prioritization",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Community alert prioritization"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/community-alert-prioritization",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "multi-model-prediction",
+    "title": "Multi model prediction",
+    "group": "Wildfire prediction response",
+    "description": "Organize multi model prediction and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "multi-model-prediction",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Multi model prediction"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/multi-model-prediction",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "evacuation-traffic",
+    "title": "Evacuation traffic",
+    "group": "Wildfire prediction response",
+    "description": "Organize evacuation traffic and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "evacuation-traffic",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Evacuation traffic"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/evacuation-traffic",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "resource-prepositioning",
+    "title": "Resource prepositioning",
+    "group": "Wildfire prediction response",
+    "description": "Organize resource prepositioning and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "resource-prepositioning",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Resource prepositioning"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/resource-prepositioning",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "drone-damage-assessment",
+    "title": "Drone damage assessment",
+    "group": "Wildfire prediction response",
+    "description": "Organize drone damage assessment and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "drone-damage-assessment",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Drone damage assessment"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/drone-damage-assessment",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "psps-coordination",
+    "title": "Psps coordination",
+    "group": "Wildfire prediction response",
+    "description": "Organize psps coordination and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "psps-coordination",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Psps coordination"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/psps-coordination",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "recovery-planning",
+    "title": "Recovery planning",
+    "group": "Wildfire prediction response",
+    "description": "Organize recovery planning and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": false,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "recovery-planning",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "Recovery planning"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/recovery-planning",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  },
+  {
+    "id": "air-quality-alerts",
+    "title": "R quality alerts",
+    "group": "Wildfire prediction response",
+    "description": "Organize r quality alerts and prepare the next review.",
+    "fields": [
+      {
+        "name": "details",
+        "label": "Details",
+        "type": "textarea"
+      },
+      {
+        "name": "source_text",
+        "label": "Source evidence",
+        "type": "textarea"
+      },
+      {
+        "name": "due_date",
+        "label": "Review date",
+        "type": "date"
+      }
+    ],
+    "ai": true,
+    "mode": "records",
+    "sources": [
+      {
+        "module": "AIWildfirePredictionResponse",
+        "path": "air-quality-alerts",
+        "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+        "kind": "route",
+        "label": "R quality alerts"
+      }
+    ],
+    "owner": "AIWildfirePredictionResponse",
+    "alternatives": [],
+    "path": "/features/air-quality-alerts",
+    "implementation": "Native records, linked work, exports, attachments and review drafts"
+  }
+]

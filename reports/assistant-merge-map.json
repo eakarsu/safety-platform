@@ -1,0 +1,470 @@
+[
+  {
+    "id": "ai-documents",
+    "title": "Writing, documents & knowledge",
+    "group": "AI assistants",
+    "path": "/assistants/ai-documents",
+    "featureIds": [
+      "notes",
+      "documents",
+      "templates",
+      "consistency-check",
+      "template-recommender",
+      "draft-press-release",
+      "situation-report-generator"
+    ],
+    "ai": true,
+    "representativeId": "notes",
+    "description": "One assistant for 7 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "notes",
+        "title": "Notes",
+        "originalPath": "/features/notes"
+      },
+      {
+        "id": "documents",
+        "title": "Documents",
+        "originalPath": "/features/documents"
+      },
+      {
+        "id": "templates",
+        "title": "Templates",
+        "originalPath": "/features/templates"
+      },
+      {
+        "id": "consistency-check",
+        "title": "Message Consistency Checker",
+        "originalPath": "/features/consistency-check"
+      },
+      {
+        "id": "template-recommender",
+        "title": "Template Recommender",
+        "originalPath": "/features/template-recommender"
+      },
+      {
+        "id": "draft-press-release",
+        "title": "Draft Press Release",
+        "originalPath": "/features/draft-press-release"
+      },
+      {
+        "id": "situation-report-generator",
+        "title": "Situation Report Generator",
+        "originalPath": "/features/situation-report-generator"
+      }
+    ]
+  },
+  {
+    "id": "ai-general",
+    "title": "General assistance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-general",
+    "featureIds": [
+      "incidents",
+      "hazards",
+      "press-releases",
+      "talking-points",
+      "media-alert",
+      "notification-cascade",
+      "competitor-mentions",
+      "auto-generate-talking-points",
+      "recommend-tactics",
+      "damage-assessments",
+      "new-tools",
+      "donation-to-need-matcher",
+      "recovery-trajectory",
+      "hazard-zones",
+      "osha-near-miss",
+      "staff-training-personalization",
+      "emergencyreadinessassessment",
+      "mentalhealthreferral-ai-triage",
+      "training-scenario-generator",
+      "resource-allocation-planner",
+      "post-fire-damage-assessor",
+      "community-alert-prioritization",
+      "drone-damage-assessment"
+    ],
+    "ai": true,
+    "representativeId": "incidents",
+    "description": "One assistant for 23 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "incidents",
+        "title": "Incident Reports",
+        "originalPath": "/features/incidents"
+      },
+      {
+        "id": "hazards",
+        "title": "Hazard Assessments",
+        "originalPath": "/features/hazards"
+      },
+      {
+        "id": "press-releases",
+        "title": "Press Releases",
+        "originalPath": "/features/press-releases"
+      },
+      {
+        "id": "talking-points",
+        "title": "Talking Points",
+        "originalPath": "/features/talking-points"
+      },
+      {
+        "id": "media-alert",
+        "title": "Automated Media Alert",
+        "originalPath": "/features/media-alert"
+      },
+      {
+        "id": "notification-cascade",
+        "title": "Notification Cascade",
+        "originalPath": "/features/notification-cascade"
+      },
+      {
+        "id": "competitor-mentions",
+        "title": "Competitor Mention Tracker",
+        "originalPath": "/features/competitor-mentions"
+      },
+      {
+        "id": "auto-generate-talking-points",
+        "title": "Auto Talking Points",
+        "originalPath": "/features/auto-generate-talking-points"
+      },
+      {
+        "id": "recommend-tactics",
+        "title": "Tactical Playbook",
+        "originalPath": "/features/recommend-tactics"
+      },
+      {
+        "id": "damage-assessments",
+        "title": "Damage Assessments",
+        "originalPath": "/features/damage-assessments"
+      },
+      {
+        "id": "new-tools",
+        "title": "AI New Tools",
+        "originalPath": "/features/new-tools"
+      },
+      {
+        "id": "donation-to-need-matcher",
+        "title": "Donation-to-Need Matcher",
+        "originalPath": "/features/donation-to-need-matcher"
+      },
+      {
+        "id": "recovery-trajectory",
+        "title": "Recovery Trajectory",
+        "originalPath": "/features/recovery-trajectory"
+      },
+      {
+        "id": "hazard-zones",
+        "title": "Hazard Zones",
+        "originalPath": "/features/hazard-zones"
+      },
+      {
+        "id": "osha-near-miss",
+        "title": "OSHA & Near-Miss",
+        "originalPath": "/features/osha-near-miss"
+      },
+      {
+        "id": "staff-training-personalization",
+        "title": "staff training personalization",
+        "originalPath": "/features/staff-training-personalization"
+      },
+      {
+        "id": "emergencyreadinessassessment",
+        "title": "emergencyreadinessassessment",
+        "originalPath": "/features/emergencyreadinessassessment"
+      },
+      {
+        "id": "mentalhealthreferral-ai-triage",
+        "title": "mentalhealthreferral ai triage",
+        "originalPath": "/features/mentalhealthreferral-ai-triage"
+      },
+      {
+        "id": "training-scenario-generator",
+        "title": "Training Scenario Generator",
+        "originalPath": "/features/training-scenario-generator"
+      },
+      {
+        "id": "resource-allocation-planner",
+        "title": "Resource Allocation Planner",
+        "originalPath": "/features/resource-allocation-planner"
+      },
+      {
+        "id": "post-fire-damage-assessor",
+        "title": "Post-Fire Damage Assessor",
+        "originalPath": "/features/post-fire-damage-assessor"
+      },
+      {
+        "id": "community-alert-prioritization",
+        "title": "Community Alert Prioritization",
+        "originalPath": "/features/community-alert-prioritization"
+      },
+      {
+        "id": "drone-damage-assessment",
+        "title": "Drone damage assessment",
+        "originalPath": "/features/drone-damage-assessment"
+      }
+    ]
+  },
+  {
+    "id": "ai-growth",
+    "title": "Marketing & customer growth",
+    "group": "AI assistants",
+    "path": "/assistants/ai-growth",
+    "featureIds": [
+      "social-media",
+      "sentiment-analysis"
+    ],
+    "ai": true,
+    "representativeId": "social-media",
+    "description": "One assistant for 2 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "social-media",
+        "title": "Social Media",
+        "originalPath": "/features/social-media"
+      },
+      {
+        "id": "sentiment-analysis",
+        "title": "Sentiment Analysis",
+        "originalPath": "/features/sentiment-analysis"
+      }
+    ]
+  },
+  {
+    "id": "ai-quality",
+    "title": "Risk, quality & compliance",
+    "group": "AI assistants",
+    "path": "/assistants/ai-quality",
+    "featureIds": [
+      "risk-assessments",
+      "safety-audits",
+      "compliance-reports",
+      "threatriskscore-severity-ai",
+      "limited-training-compliance-tracking",
+      "quick-risk-assessment",
+      "weather-risk-monitor",
+      "air-quality-alerts"
+    ],
+    "ai": true,
+    "representativeId": "risk-assessments",
+    "description": "One assistant for 8 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "risk-assessments",
+        "title": "Risk Assessment",
+        "originalPath": "/features/risk-assessments"
+      },
+      {
+        "id": "safety-audits",
+        "title": "Safety Audits",
+        "originalPath": "/features/safety-audits"
+      },
+      {
+        "id": "compliance-reports",
+        "title": "Compliance Reports",
+        "originalPath": "/features/compliance-reports"
+      },
+      {
+        "id": "threatriskscore-severity-ai",
+        "title": "threatriskscore severity ai",
+        "originalPath": "/features/threatriskscore-severity-ai"
+      },
+      {
+        "id": "limited-training-compliance-tracking",
+        "title": "limited training compliance tracking",
+        "originalPath": "/features/limited-training-compliance-tracking"
+      },
+      {
+        "id": "quick-risk-assessment",
+        "title": "Quick Risk Assessment",
+        "originalPath": "/features/quick-risk-assessment"
+      },
+      {
+        "id": "weather-risk-monitor",
+        "title": "Weather Risk Monitor",
+        "originalPath": "/features/weather-risk-monitor"
+      },
+      {
+        "id": "air-quality-alerts",
+        "title": "R quality alerts",
+        "originalPath": "/features/air-quality-alerts"
+      }
+    ]
+  },
+  {
+    "id": "ai-insights",
+    "title": "Insights & recommendations",
+    "group": "AI assistants",
+    "path": "/assistants/ai-insights",
+    "featureIds": [
+      "post-crisis-analysis",
+      "predictive-crisis-detection",
+      "severity-score",
+      "impact-forecast",
+      "predict-escalation",
+      "threat-analysis",
+      "supply-distribution-optimizer",
+      "shelter-assignment-optimizer",
+      "vulnerability-analysis",
+      "real-time-impact-forecasting",
+      "resource-constrained-optimization",
+      "supply-chain-prediction",
+      "volunteerroutes-lacks-ai-volunteer-matching",
+      "ppe-detections",
+      "incident-predict",
+      "agentic-predictive",
+      "insights",
+      "weather-analyses",
+      "spread-predictions",
+      "fire-behavior-analysis",
+      "prevention-recommendations",
+      "fire-spread-predictor",
+      "resource-deployment-optimizer",
+      "multi-model-prediction"
+    ],
+    "ai": true,
+    "representativeId": "post-crisis-analysis",
+    "description": "One assistant for 24 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "post-crisis-analysis",
+        "title": "Post-Crisis Analysis",
+        "originalPath": "/features/post-crisis-analysis"
+      },
+      {
+        "id": "predictive-crisis-detection",
+        "title": "CF: PredictiveCrisisDetectio",
+        "originalPath": "/features/predictive-crisis-detection"
+      },
+      {
+        "id": "severity-score",
+        "title": "Crisis Severity Scorer",
+        "originalPath": "/features/severity-score"
+      },
+      {
+        "id": "impact-forecast",
+        "title": "Impact Forecaster",
+        "originalPath": "/features/impact-forecast"
+      },
+      {
+        "id": "predict-escalation",
+        "title": "Predict Escalation",
+        "originalPath": "/features/predict-escalation"
+      },
+      {
+        "id": "threat-analysis",
+        "title": "Threat Analysis",
+        "originalPath": "/features/threat-analysis"
+      },
+      {
+        "id": "supply-distribution-optimizer",
+        "title": "Supply Distribution Optimizer",
+        "originalPath": "/features/supply-distribution-optimizer"
+      },
+      {
+        "id": "shelter-assignment-optimizer",
+        "title": "Shelter Assignment Optimizer",
+        "originalPath": "/features/shelter-assignment-optimizer"
+      },
+      {
+        "id": "vulnerability-analysis",
+        "title": "Vulnerability Analysis",
+        "originalPath": "/features/vulnerability-analysis"
+      },
+      {
+        "id": "real-time-impact-forecasting",
+        "title": "Real time impact forecasting",
+        "originalPath": "/features/real-time-impact-forecasting"
+      },
+      {
+        "id": "resource-constrained-optimization",
+        "title": "Resource constrained optimization",
+        "originalPath": "/features/resource-constrained-optimization"
+      },
+      {
+        "id": "supply-chain-prediction",
+        "title": "Supply chain prediction",
+        "originalPath": "/features/supply-chain-prediction"
+      },
+      {
+        "id": "volunteerroutes-lacks-ai-volunteer-matching",
+        "title": "Volunteerroutes lacks ai volunteer matching",
+        "originalPath": "/features/volunteerroutes-lacks-ai-volunteer-matching"
+      },
+      {
+        "id": "ppe-detections",
+        "title": "PPE Detection",
+        "originalPath": "/features/ppe-detections"
+      },
+      {
+        "id": "incident-predict",
+        "title": "Incident Predict",
+        "originalPath": "/features/incident-predict"
+      },
+      {
+        "id": "agentic-predictive",
+        "title": "Agentic & Predictive",
+        "originalPath": "/features/agentic-predictive"
+      },
+      {
+        "id": "insights",
+        "title": "AI Insights",
+        "originalPath": "/features/insights"
+      },
+      {
+        "id": "weather-analyses",
+        "title": "Weather Analyses",
+        "originalPath": "/features/weather-analyses"
+      },
+      {
+        "id": "spread-predictions",
+        "title": "Spread Predictions",
+        "originalPath": "/features/spread-predictions"
+      },
+      {
+        "id": "fire-behavior-analysis",
+        "title": "Fire Behavior Analysis",
+        "originalPath": "/features/fire-behavior-analysis"
+      },
+      {
+        "id": "prevention-recommendations",
+        "title": "Prevention Recommendations",
+        "originalPath": "/features/prevention-recommendations"
+      },
+      {
+        "id": "fire-spread-predictor",
+        "title": "Fire Spread Predictor",
+        "originalPath": "/features/fire-spread-predictor"
+      },
+      {
+        "id": "resource-deployment-optimizer",
+        "title": "Resource Deployment Optimizer",
+        "originalPath": "/features/resource-deployment-optimizer"
+      },
+      {
+        "id": "multi-model-prediction",
+        "title": "Multi model prediction",
+        "originalPath": "/features/multi-model-prediction"
+      }
+    ]
+  },
+  {
+    "id": "ai-planning",
+    "title": "Planning & scheduling",
+    "group": "AI assistants",
+    "path": "/assistants/ai-planning",
+    "featureIds": [
+      "evacuation-route-optimizer"
+    ],
+    "ai": true,
+    "representativeId": "evacuation-route-optimizer",
+    "description": "One assistant for 1 related capabilities. Choose the work you need and combine your questions.",
+    "capabilities": [
+      {
+        "id": "evacuation-route-optimizer",
+        "title": "Evacuation Route Optimizer",
+        "originalPath": "/features/evacuation-route-optimizer"
+      }
+    ]
+  }
+]

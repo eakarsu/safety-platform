@@ -1,0 +1,1577 @@
+{
+  "mapped": [
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/permit-closeout-readiness",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "permit-closeout-readiness",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/inspections",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "inspections",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/violations",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "violations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/checklists",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "checklists",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/incidents",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "incidents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/equipment",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "equipment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/certifications",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "certifications",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/training",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "training",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/hazards",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "hazards",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/documents",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "documents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/emergency",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "emergency",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/ppe",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "ppe",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/corrections",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "corrections",
+      "kind": "definition"
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "sourceKey": "/reports",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector/frontend/src/config/features.js",
+      "canonical": "reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/crisis-incidents",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "crisis-incidents",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/media-monitoring",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "media-monitoring",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/stakeholders",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "stakeholders",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/response-templates",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "response-templates",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/crisis-simulations",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "crisis-simulations",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/communication-logs",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "communication-logs",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/team-members",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "team-members",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/incident-timelines",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "incident-timelines",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/press-releases",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "press-releases",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/social-media",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "social-media",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/sentiment-analysis",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "sentiment-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/risk-assessments",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "risk-assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/talking-points",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "talking-points",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/post-crisis-analysis",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "post-crisis-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/cf/predictive-crisis-detection",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "predictive-crisis-detection",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/cf/agentic-response-planning",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "agentic-response-planning",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/cf/sentiment-driven-escalation",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "sentiment-driven-escalation",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/cf/scenario-stress-testing",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "scenario-stress-testing",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/cf/post-crisis-learning-automation",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "post-crisis-learning-automation",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/gap/all-major-functions-lack-ai-endpoints-missing-generate-respo",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "all-major-functions-lack-ai-endpoints-missing-generate-respo",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/gap/no-real-time-alert-system-for-crisis-detection",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "real-time-alert-system-for-crisis-detection",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/gap/limited-integration-with-media-monitoring-apis-meltwater-bra",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "limited-integration-with-media-monitoring-apis-meltwater-bra",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/gap/no-webhooks",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "webhooks",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/gap/limited-push-notification-distribution-beyond-plumbing-stubs",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "limited-push-notification-distribution-beyond-plumbing-stubs",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/gap/no-approval-workflow-for-crisis-responses",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "approval-workflow-for-crisis-responses",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "/gap/no-payment-billing-module",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "canonical": "payment-billing-module",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "severity-score",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+      "canonical": "severity-score",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "consistency-check",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+      "canonical": "consistency-check",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "template-recommender",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+      "canonical": "template-recommender",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "impact-forecast",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+      "canonical": "impact-forecast",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "media-alert",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+      "canonical": "media-alert",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "notification-cascade",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+      "canonical": "notification-cascade",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "competitor-mentions",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+      "canonical": "competitor-mentions",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "draft-press-release",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+      "canonical": "draft-press-release",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "predict-escalation",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+      "canonical": "predict-escalation",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "auto-generate-talking-points",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+      "canonical": "auto-generate-talking-points",
+      "kind": "definition"
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "sourceKey": "recommend-tactics",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/pages/AIAdvanced.js",
+      "canonical": "recommend-tactics",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/incidents",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "incidents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/resources",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "resources",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/shelters",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "shelters",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/volunteers",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "volunteers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/supplies",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "supplies",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/evacuations",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "evacuations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/damage-assessments",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "damage-assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/communications",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "messages",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/weather-alerts",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "weather-alerts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/donations",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "donations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/medical-resources",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "medical-resources",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/search-rescue",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "search-rescue",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/infrastructure",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "infrastructure",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/threat-analysis",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "threat-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/live-map",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "live-map",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/briefing",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "briefing",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/external-data",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "external-data",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/mutual-aid",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "mutual-aid",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/aar",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "aar",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/ai-new-tools",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "new-tools",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/eews/seismic-feed-ingest",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "eews-seismic-feed-ingest",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/eews/p-wave-detection",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "eews-p-wave-detection",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/eews/tsunami-propagation",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "eews-tsunami-propagation",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/eews/population-alert-router",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "eews-population-alert-router",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/eews/eew-siren",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "eews-eew-siren",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/eews/shake-alert-gateway",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "canonical": "eews-shake-alert-gateway",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "Supply Distribution Optimizer",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/AINewTools.js",
+      "canonical": "supply-distribution-optimizer",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "Donation-to-Need Matcher",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/AINewTools.js",
+      "canonical": "donation-to-need-matcher",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "Shelter Assignment Optimizer",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/AINewTools.js",
+      "canonical": "shelter-assignment-optimizer",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "Vulnerability Analysis",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/AINewTools.js",
+      "canonical": "vulnerability-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "Recovery Trajectory",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/AINewTools.js",
+      "canonical": "recovery-trajectory",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "Impact Forecast",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/AINewTools.js",
+      "canonical": "impact-forecast",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/incidents",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+      "canonical": "incidents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/resources",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+      "canonical": "resources",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/shelters",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+      "canonical": "shelters",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/volunteers",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+      "canonical": "volunteers",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/supplies",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+      "canonical": "supplies",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/evacuations",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+      "canonical": "evacuations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/damage-assessments",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+      "canonical": "damage-assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/communications",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+      "canonical": "messages",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/weather-alerts",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+      "canonical": "weather-alerts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/donations",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+      "canonical": "donations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/medical-resources",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+      "canonical": "medical-resources",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "/infrastructure",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/pages/Dashboard.js",
+      "canonical": "infrastructure",
+      "kind": "definition"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "cf/real-time-impact-forecasting",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "real-time-impact-forecasting",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "cf/resource-constrained-optimization",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "resource-constrained-optimization",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "cf/vulnerability-analysis",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "vulnerability-analysis",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "cf/supply-chain-prediction",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "supply-chain-prediction",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "cf/recovery-trajectory-modeling",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "recovery-trajectory-modeling",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "gap/supplyroutes-lacks-optimize-supply-distribution",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "supplyroutes-lacks-optimize-supply-distribution",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "gap/donationroutes-lacks-match-donation-to-need",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "donationroutes-lacks-match-donation-to-need",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "gap/shelterroutes-lacks-optimize-shelter-assignments",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "shelterroutes-lacks-optimize-shelter-assignments",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "gap/volunteerroutes-lacks-ai-volunteer-matching",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "volunteerroutes-lacks-ai-volunteer-matching",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "gap/no-real-time-crisis-command-center-dashboard-surface-beyond",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "real-time-crisis-command-center-dashboard-surface-beyond",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "gap/limited-mobile-app-for-first-responders",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "limited-mobile-app-for-first-responders",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "gap/limited-integration-with-emergency-services-911-fema-red-cro",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "limited-integration-with-emergency-services-911-fema-red-cro",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "gap/no-social-media-monitoring-for-crisis-information",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "social-media-monitoring-for-crisis-information",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "gap/no-webhooks",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "webhooks",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "gap/no-payment-billing-module-for-donations-beyond-crud",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "payment-billing-module-for-donations-beyond-crud",
+      "kind": "route"
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "sourceKey": "gap/no-calendar-integration",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "canonical": "calendar-integration",
+      "kind": "route"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/ppe-detections",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "ppe-detections",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/incidents",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "incidents",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/risk-assessments",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "risk-assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/safety-audits",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "safety-audits",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/compliance-reports",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "compliance-reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/hazard-zones",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "hazard-zones",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/ai/incident-predict",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "incident-predict",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/ai/osha-near-miss",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "osha-near-miss",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/ai/agentic-predictive",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "agentic-predictive",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/employees",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "employees",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/safety-trainings",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "training",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/equipment-inspections",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "equipment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/ppe-inventory",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "ppe",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/shift-schedules",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "shift-schedules",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/emergency-contacts",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "emergency-contacts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/safety-alerts",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "safety-alerts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/lockout-tagout-review",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "canonical": "lockout-tagout-review",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/employees",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/pages/Dashboard.jsx",
+      "canonical": "employees",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/ai-insights",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/pages/Dashboard.jsx",
+      "canonical": "insights",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "/audit-logs",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/pages/Dashboard.jsx",
+      "canonical": "audit",
+      "kind": "definition"
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "sourceKey": "integrations",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor",
+      "canonical": "connections",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "cf-behavioral-intelligence-platform",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "behavioral-intelligence-platform",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "cf-threat-severity-scoring",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "threat-severity-scoring",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "cf-mental-health-early-identification",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "mental-health-early-identification",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "cf-emergency-playbook-automation",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "emergency-playbook-automation",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "cf-community-risk-monitoring",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "community-risk-monitoring",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "cf-staff-training-personalization",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "staff-training-personalization",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "gap-no-threatriskscore-severity-ai",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "threatriskscore-severity-ai",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "gap-no-behavioralpatterndetection",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "behavioralpatterndetection",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "gap-no-bullyingdetection-from-textcommunication",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "bullyingdetection-from-textcommunication",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "gap-no-emergencyreadinessassessment",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "emergencyreadinessassessment",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "gap-no-firstresponderbrief-autogeneration",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "firstresponderbrief-autogeneration",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "gap-no-mentalhealthreferral-ai-triage",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "mentalhealthreferral-ai-triage",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "gap-limited-anonymous-reporting-tips-route-exist",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "limited-anonymous-reporting-tips-route-exist",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "gap-no-sospanic-alert-system-integration",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "sospanic-alert-system-integration",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "gap-no-massnotification-smsvoice-emergency-comms",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "massnotification-smsvoice-emergency-comms",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "gap-no-firstresponder-integration-cad-push",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "firstresponder-integration-cad-push",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "gap-no-sis-student-information-system-integratio",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "sis-student-information-system-integratio",
+      "kind": "route"
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "sourceKey": "gap-limited-training-compliance-tracking",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "canonical": "limited-training-compliance-tracking",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "/risk-assessments",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+      "canonical": "risk-assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "/fire-detections",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+      "canonical": "fire-detections",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "/evacuation-plans",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+      "canonical": "evacuation-plans",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "/resource-allocations",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+      "canonical": "resource-allocations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "/weather-analyses",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+      "canonical": "weather-analyses",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "/smoke-reports",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+      "canonical": "smoke-reports",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "/community-alerts",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+      "canonical": "community-alerts",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "/damage-assessments",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+      "canonical": "damage-assessments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "/spread-predictions",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+      "canonical": "spread-predictions",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "/water-sources",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+      "canonical": "water-sources",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "/crew-deployments",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+      "canonical": "crew-deployments",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "/equipment-tracking",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/components/Sidebar.js",
+      "canonical": "equipment-tracking",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "Quick Risk Assessment",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AICenter.js",
+      "canonical": "quick-risk-assessment",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "Situation Report Generator",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AICenter.js",
+      "canonical": "situation-report-generator",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "Fire Behavior Analysis",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AICenter.js",
+      "canonical": "fire-behavior-analysis",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "Prevention Recommendations",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AICenter.js",
+      "canonical": "prevention-recommendations",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "Training Scenario Generator",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AICenter.js",
+      "canonical": "training-scenario-generator",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "Fire Spread Predictor",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+      "canonical": "fire-spread-predictor",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "Evacuation Route Optimizer",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+      "canonical": "evacuation-route-optimizer",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "Resource Allocation Planner",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+      "canonical": "resource-allocation-planner",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "Post-Fire Damage Assessor",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+      "canonical": "post-fire-damage-assessor",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "Weather Risk Monitor",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+      "canonical": "weather-risk-monitor",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "Resource Deployment Optimizer",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+      "canonical": "resource-deployment-optimizer",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "Community Alert Prioritization",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse/frontend/src/pages/AIToolsExtra.js",
+      "canonical": "community-alert-prioritization",
+      "kind": "definition"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "fire-spread-predictor",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "fire-spread-predictor",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "evacuation-route-optimizer",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "evacuation-route-optimizer",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "resource-allocation-planner",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "resource-allocation-planner",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "post-fire-damage-assessor",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "post-fire-damage-assessor",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "weather-risk-monitor",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "weather-risk-monitor",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "resource-deployment-optimizer",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "resource-deployment-optimizer",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "community-alert-prioritization",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "community-alert-prioritization",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "multi-model-prediction",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "multi-model-prediction",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "evacuation-traffic",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "evacuation-traffic",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "resource-prepositioning",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "resource-prepositioning",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "drone-damage-assessment",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "drone-damage-assessment",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "psps-coordination",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "psps-coordination",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "recovery-planning",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "recovery-planning",
+      "kind": "route"
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "sourceKey": "air-quality-alerts",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "canonical": "air-quality-alerts",
+      "kind": "route"
+    }
+  ],
+  "ignored": [
+    {
+      "project": "AIBuildingSafetyInspector",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIBuildingSafetyInspector",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIBuildingSafetyInspector",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "key": "/",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "key": "/ai-advanced",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent/frontend/src/components/Sidebar.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "key": "ai-advanced",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AICrisisCommunicationAgent",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AICrisisCommunicationAgent",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "key": "/dashboard",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "key": "/ai-center",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator/frontend/src/components/Layout.js",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "key": "dashboard",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIDisasterResponseCoordinator",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIDisasterResponseCoordinator",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "key": "/",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "key": "/custom-views",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor/frontend/src/components/Layout.jsx",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "key": "batch03",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "key": "login",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIFactoryFloorSafetyMonitor",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIFactoryFloorSafetyMonitor",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "key": "insights/timeline",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AISchoolSafetyThreatAssessment",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "key": "codex/custom-viz",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "key": "codex/operations",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "key": "/",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "key": "ai-center",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "key": "ai-tools",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "key": "custom-views",
+      "source": "/Volumes/external/projects/AIWildfirePredictionResponse",
+      "reason": "Authentication, configuration, container or utility represented by the shared workspace."
+    },
+    {
+      "project": "AIWildfirePredictionResponse",
+      "key": "*",
+      "reason": "Home, dynamic record action, callback or fallback route."
+    }
+  ],
+  "migrationWarnings": []
+}

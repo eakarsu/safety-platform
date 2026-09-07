@@ -1,0 +1,27 @@
+{
+  "id": "safety-platform",
+  "title": "Emergency response & safety",
+  "buyer": "Emergency and safety coordination teams",
+  "sourceCount": 6,
+  "sources": [
+    "AIBuildingSafetyInspector",
+    "AICrisisCommunicationAgent",
+    "AIDisasterResponseCoordinator",
+    "AIFactoryFloorSafetyMonitor",
+    "AISchoolSafetyThreatAssessment",
+    "AIWildfirePredictionResponse"
+  ],
+  "status": "proposed build; not implemented",
+  "canonicalFeatureStatus": "Requires feature-level mapping and workflow migration; source route counts are not feature-completion counts.",
+  "port": 46039,
+  "productName": "Emergency response Workspace",
+  "runtimeVersion": "1.0.0",
+  "sourceRoots": [
+    "/Volumes/external/projects/AIBuildingSafetyInspector",
+    "/Volumes/external/projects/AICrisisCommunicationAgent",
+    "/Volumes/external/projects/AIDisasterResponseCoordinator",
+    "/Volumes/external/projects/AIFactoryFloorSafetyMonitor",
+    "/Volumes/external/projects/AISchoolSafetyThreatAssessment",
+    "/Volumes/external/projects/AIWildfirePredictionResponse"
+  ]
+}

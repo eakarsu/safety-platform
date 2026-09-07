@@ -1,0 +1,9 @@
+{
+  "app": "safety-platform",
+  "features": 167,
+  "sourceApps": 6,
+  "calculatorEngines": 0,
+  "registryHash": "8a0f6c17d8b685e407d5cfd5ccc300cdf66382f0be953c21b66c87124c37e9d7",
+  "builtAt": "2026-09-07T22:05:56.646Z",
+  "status": "built"
+}
