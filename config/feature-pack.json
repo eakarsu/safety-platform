@@ -1,0 +1,22 @@
+{
+  "insights": [
+    {
+      "id": "insight-incidents",
+      "feature": "incidents",
+      "title": "Incident Reports insight",
+      "focus": "Summarize Incident Reports records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "insight-inspections",
+      "feature": "inspections",
+      "title": "Site Inspections insight",
+      "focus": "Summarize Site Inspections records: totals, status mix, field coverage and recent activity."
+    },
+    {
+      "id": "priority-actions",
+      "feature": "tasks",
+      "title": "Priority actions",
+      "focus": "Overdue and upcoming tasks, including unassigned work."
+    }
+  ]
+}
